@@ -36,7 +36,7 @@ function aletrarImagemDePersonagemSelecionado(personagem) {
     
     const idPersonagem = personagem.attributes.id.value
     
-    imagemPersonagemGrande.src = `./src/imagenss/card-${idPersonagem}.png`
+    imagemPersonagemGrande.src = `src/imagenss/card-${idPersonagem}.png`
 }
 function adicionarSelecaoDoPersonagem(personagem) {
     personagem.classList.add('selecionado')
